@@ -1,0 +1,120 @@
+/* BODY */
+
+body {
+  background-color: #f5d7d1;
+  margin: 0;
+  padding: 0;
+}
+
+/* HEADER */
+
+header {
+  display: flex;
+  height: 300px;
+  background-color: #ffffff;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header > h1 {
+  font-family: "Gaegu", cursive;
+  letter-spacing: 0.8em;
+  font-weight: 400;
+  font-size: 2rem;
+  padding: 0;
+  text-align: center;
+}
+
+header > p {
+  padding: 0;
+  font-size: 1em;
+  font-weight: lighter;
+  font-family: "Dosis", sans-serif;
+  letter-spacing: 0.8rem;
+}
+
+/* Seccion */
+.section {
+  font-family: "Gaegu", cursive;
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-size: 20px;
+  background-color: rgb(255, 255, 255);
+  margin-top: 10px;
+  padding-left: 10px;
+}
+
+/* MAIN -  Donde están los prodcutos */
+
+main {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+  flex-wrap: wrap;
+}
+
+/* Cartas de productos */
+
+.product-card {
+  width: 280px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 5px 0 rgba(119, 103, 112, 0.8);
+  margin: 15px;
+  transition: all 0.3s;
+}
+
+.product-card:hover {
+  transform: translateY(-15px);
+  box-shadow: 0px 5px 20px 5px rgba(119, 103, 112, 0.8),
+    2px 2px 5px 0 rgba(119, 103, 112, 0.8);
+}
+
+#vuela:hover {
+  transform: rotate(720deg) scale(0.5);
+}
+
+/* Imagen de las cartas de producto */
+
+.product-img {
+  width: 270px;
+  height: auto;
+  margin: 5px;
+}
+
+.product-img > img {
+  width: 100%;
+  height: auto;
+}
+
+/* Descripción de los productos */
+
+.description {
+  margin-left: 10px;
+}
+
+.category {
+  font-size: 12px;
+  font-weight: lighter;
+  font-family: "Dosis", sans-serif;
+}
+
+.product-name {
+  font-family: "Gaegu", cursive;
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  background-color: rgb(255, 130, 192);
+  height: 50px;
+  justify-content: center;
+  align-content: center;
+  font-family: "Gaegu", cursive;
+}
